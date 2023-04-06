@@ -1,0 +1,17 @@
+.adminSide{
+    
+    background-color: whitesmoke;
+}
+.main{
+    display: flex;
+    margin: 0;
+    height: 500px;
+    width: 1200px;
+}
+.adminRoute{
+    margin-left: 20px;
+}
+.adminSide {
+    background-color: skyblue;
+    height:200vh;
+}

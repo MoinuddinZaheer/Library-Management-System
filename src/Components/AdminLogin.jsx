@@ -1,6 +1,7 @@
 import React from 'react'
 import { useRef } from 'react'
 import { Navigate, useNavigate } from 'react-router-dom';
+import '../styles/adminLogin.css'
 const AdminLogin = () => {
   let id=useRef(null);
   let navigate=useNavigate();
@@ -14,11 +15,12 @@ const AdminLogin = () => {
     }
   }
   return (
-    <div>
+    <div className='adminLoginForm'>
+      <div className="lForm">
       <h1>Admin login</h1>
-      <form action="" onSubmit={adminLogin}>
+      <form action="" onSubmit={adminLogin} >
       <div className="login">
-        <input ref={id} type="text" placeholder='enter login id' />
+        <input ref={id} type="text" placeholder='Enter Login Id' />
       </div>
       <div className="password">
         <input ref={password} type="text" placeholder='Enter Your Password'/>
@@ -27,6 +29,7 @@ const AdminLogin = () => {
         <button>Sign In</button>
       </div>
       </form>
+      </div>
     </div>
   )
 }

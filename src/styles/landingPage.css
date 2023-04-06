@@ -1,0 +1,62 @@
+.LandingPage{
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 47, 255, 0.534);
+    height: 100vh;
+    width: 100%;
+
+}
+.main1{
+    z-index: 1;
+
+    background-color: rgba(128, 128, 128, 0.568);
+    height: 38%;
+    top: 250px;
+    left: 160px;
+    width: 400px;
+    margin-left: 300px;
+    
+    position: absolute;
+
+}
+.admin{
+    border: 2px solid black;
+    margin-left: 70px;
+    height: 20px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+.user {
+    border: 2px solid black;
+    height: 20px;
+    width: 200px;
+    margin-left: 70px;
+
+}
+.user a{
+    text-decoration: none;
+}
+.admin a{
+    text-decoration: none;
+}
+.user:hover{
+    background-color: blue;
+    color: white;
+}
+.admin:hover{
+    background-color: blue;
+    
+}
+.user a:hover{
+    color: white;
+}
+.admin a:hover{
+    color: white;
+}
+
+.main2{
+    margin-top: 50px;
+}
+.main2 h1{
+    margin-left: 80px;
+}

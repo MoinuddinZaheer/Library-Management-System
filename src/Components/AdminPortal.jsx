@@ -20,8 +20,8 @@ const AdminPortal = () => {
           <Route path='/book-list' element={<BookList />}></Route>
           <Route path='/book-list/:id' element={<ReadBook />}></Route>
           <Route path='/add-books' element={<AddBooks />} />
-          <Route path='/add-user' element={<AddUser />} />
-          <Route path='/user-list' element={<UserList />} />
+          <Route path='/add-user' element={<AddUser/>} />
+          <Route path='/user-list' element={<UserList/>} />
         </Routes>
       </div>
     </div>

@@ -1,6 +1,8 @@
 import React from 'react'
 import { useRef } from 'react';
 import{useNavigate} from 'react-router-dom'
+import "../styles/userLogin.css"
+import ima from "../assets/userbg.jpg"
 // import larrow from "../assets/arrow.png"
 // import userimg from "../assets/userimg.png"
 const UserLogin=()=> {
@@ -16,11 +18,12 @@ const UserLogin=()=> {
     }
   }
   return (
-    <div className='UserLogin'>
-      <h1>User Login</h1>
-     <form action="" onSubmit={submit}>
+    <div className='UserLogin' style={{backgroundImage:`url(${ima})`}}>
+     
+     <form action="" onSubmit={submit} style={{height:"200px",width:"300px",marginLeft:"500px"}}>
+     <h1>User Login...!</h1>
      <div className="login">
-        <input ref={id} type="text" placeholder='enter login id' />
+        <input ref={id} type="text" placeholder='Enter Login Id' />
       </div>
       <div className="password">
         <input ref={password} type="text" placeholder='Enter Your Password'/>

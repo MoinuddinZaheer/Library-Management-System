@@ -2,6 +2,7 @@ import React from 'react'
 import { useRef } from 'react'
 import { Navigate, useNavigate } from 'react-router-dom';
 import '../styles/adminLogin.css'
+import imag from "../assets/userbg.jpg"
 const AdminLogin = () => {
   let id=useRef(null);
   let navigate=useNavigate();
@@ -15,7 +16,7 @@ const AdminLogin = () => {
     }
   }
   return (
-    <div className='adminLoginForm'>
+    <div className='adminLoginForm' style={{backgroundImage:`url(${imag})`}}>
       <div className="lForm">
       <h1>Admin login</h1>
       <form action="" onSubmit={adminLogin} >

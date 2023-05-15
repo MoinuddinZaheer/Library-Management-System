@@ -1,5 +1,6 @@
 .adminLoginForm {
-    background: linear-gradient(rgba(255, 166, 0, 0.795),rgba(255, 255, 0, 0.377));
+    /* background: linear-gradient(rgba(255, 166, 0, 0.795),rgba(255, 255, 0, 0.377)); */
+    
     height: 100vh;
     width: 100%;
     position: relative;
@@ -8,9 +9,9 @@
 }
 .lForm {
     background-color: whitesmoke;
-    height: 25%;
+    height: 30%;
     top: 250px;
-    left: 160px;
+    left: 180px;
     width: 250px;
     margin-left: 300px;
     position: absolute;

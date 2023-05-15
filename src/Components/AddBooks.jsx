@@ -39,19 +39,19 @@ const AddBooks = () => {
   return (
     <div className='AdminLogin'>
     {/* <div className='arim' onClick={()=>nevigator("/")}><img src={larrow} alt="" /></div> */}
-<form action="" onSubmit={submit}>
-<div className="log" style={{width: "40%",height: "530px"}}>
-    <h1 style={{color:"white"}}>Add Book</h1>
+<form action="" style={{height:"350px",width:"500px",marginLeft:"200px",marginTop:"50px",backgroundColor:"white"}} onSubmit={submit}>
+<div className="log" style={{width: "60%",height: "200px",marginLeft:"150px",marginTop:"100px"}}>
+    <h1 style={{color:"blue"}}>Add Book</h1>
   <div >
-    <input ref={author} type="text" placeholder='add author name...' /> <br />
-    <input ref={country} type="text" placeholder='add origin country' /> <br />
-    <input ref={imageLink} type="text" placeholder='add imagelink...' /><br />
-    <input ref={language} type="text" placeholder='add language...' /><br />
-    <input ref={link} type="text" placeholder='add wikipedia link...' /><br />
-    <input ref={pages} type="text" placeholder='add pages...' /><br />
-    <input ref={title} type="text" placeholder='add title...' /><br />
-    <input ref={year} type="text" placeholder='add year...' /><br />
-    <input ref={description} type="text" placeholder='add description...' /><br />
+    <input ref={author} type="text" placeholder='Add author name...' /> <br />
+    <input ref={country} type="text" placeholder='Add origin country' /> <br />
+    <input ref={imageLink} type="text" placeholder='Add imagelink...' /><br />
+    <input ref={language} type="text" placeholder='Add language...' /><br />
+    <input ref={link} type="text" placeholder='Add wikipedia link...' /><br />
+    <input ref={pages} type="text" placeholder='Add pages...' /><br />
+    <input ref={title} type="text" placeholder='Add title...' /><br />
+    <input ref={year} type="text" placeholder='Add year...' /><br />
+    <input ref={description} type="text" placeholder='Add description...' /><br />
 
   </div>
   <div className="btn">

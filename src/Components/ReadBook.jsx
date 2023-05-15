@@ -20,12 +20,12 @@ useEffect(()=>
    
 })
   return (
-    <div className='readbook'>
+    <div className='readbook' style={{width:"92%",marginLeft:"110px"}}>
     <h1>Description...</h1>
    <div className="text">{dataOb.description}</div> 
    <div>
     <a className='belowbtn' style={{textDecoration:"none",boxSizing:"border-box",padding:"10px",top:"2px",position:"relative"}} href={dataOb.link}>Check on Wikipedia</a>
-    <button className='belowbtn' onClick={()=>navi('/admin/book-list')}>GO back to Booklists</button>
+    <button className='belowbtn' style={{borderRadius:"10px",backgroundColor:"yellow"}} onClick={()=>navi('/admin/book-list')}>GO back to Booklists</button>
    </div>
     </div>
   )

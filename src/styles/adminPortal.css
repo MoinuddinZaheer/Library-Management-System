@@ -6,12 +6,13 @@
     display: flex;
     margin: 0;
     height: 500px;
-    width: 1200px;
+    width: 92%;
 }
 .adminRoute{
     margin-left: 20px;
 }
 .adminSide {
+    position: fixed;
     background-color: skyblue;
-    height:200vh;
+    height: 100%;
 }

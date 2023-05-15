@@ -1,7 +1,7 @@
 .LandingPage{
     position: relative;
     z-index: 1;
-    background-color: rgba(0, 47, 255, 0.534);
+    /* background-color: rgba(0, 47, 255, 0.534); */
     height: 100vh;
     width: 100%;
 
@@ -35,9 +35,11 @@
 }
 .user a{
     text-decoration: none;
+    color: whitesmoke;
 }
 .admin a{
     text-decoration: none;
+    color: whitesmoke;
 }
 .user:hover{
     background-color: blue;

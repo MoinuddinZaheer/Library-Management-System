@@ -25,16 +25,16 @@ const AddUser = () => {
   return (
     <div className='AdminLogin'>
     {/* <div className='arim' onClick={()=>nevigator("/")}><img src={larrow} alt="" /></div> */}
-  <form action="" onSubmit={submit} >
+  <form action="" onSubmit={submit} style={{marginLeft:"300px",marginTop:"100px",height:"300px",width:"300px"}} >
   <div className="log">
-    <h1 style={{color:"white"}}>Create User...</h1>
+    <h1 style={{color:"blue"}}>Create User...</h1>
   <div >
     <input ref={email} type="text" placeholder='Add Email' /> <br />
     <input type="text" ref={username} placeholder='Enter  User name'/> <br />
-    <input ref={password} type="password" placeholder='add pin...' />
+    <input ref={password} type="password" placeholder='Add Password.' />
   </div>
   <div className="btn">
-    <button style={{color:"white"}}>Create</button>
+    <button style={{color:"white",backgroundColor:"blue"}}>Create</button>
   </div>
   </div>
   </form>
